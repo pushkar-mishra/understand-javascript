@@ -24,3 +24,14 @@ console.log(person["address"]);  //outputs: Object {street: "11th main road", ph
 
 //Recomended
 console.log(person.address); //outputs: Object {street: "11th main road", phone: "91-1234567890"} 
+
+
+/* Using object litrals */
+
+//Faster and prefered.
+
+person = {fName: "Ram", lName: "Mishra", address: 
+{street: "11th main road",phone: "+1-1234567890"}
+}
+
+console.log(person);
